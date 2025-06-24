@@ -20,6 +20,8 @@ pip install -r requirements.txt
 pip install command to install it.
 
 ## Datasets
+Please refer to [HCP-MLR-PL](https://github.com/HCPLab-SYSU/HCP-MLR-PL) to prepare the data.
+
 Our method works for COCO and VG datasets, please modify your ``dataset path`` under ``config/dataset``.
 If you want to use your own dataset, you can configure it by copying the dataset writeup under the ``config/dataset``.
 Afterwards, specify your dataset on the command line using the ``-dataset`` parameter. See the ``config`` and ``scripts`` folders for details on how to configure it.
